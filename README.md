@@ -1,5 +1,5 @@
 # aeroplane_radar
-For use with Raspberry Pi, uses Dump1090 with SDR Dongle to alert you of approaching low flying aircraft. Useful for model plane flyers and FPV drone flyers to alert that the is full size aeroplane in the area. A sound beeps when a low flying aircaft approches and it is displayed on a radar screen (guizero) or OLED screen on Raspberry Pi if used in the field.
+For use with Raspberry Pi, uses Dump1090 with SDR Dongle to alert you of approaching low flying aircraft. Useful for model plane flyers and FPV drone flyers to alert that there is full size aeroplane in the area. A sound beeps when a low flying aircaft approaches and it is displayed on a radar screen like guizero or OLED screen on Raspberry Pi if used in the field.
 
 Loosly based on Lexfp's fvpradar https://github.com/lexfp/fpvradar for initial code ideas, this one is updated for Raspberry Pi Bullseye with Phython3 and newer libraires.
 

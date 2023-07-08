@@ -23,8 +23,8 @@ Currently I am developing using one Raspberry Pi which is running Dump1090 with 
 1) Setup Rasberry Pi
 2) Install Piaware see https://flightaware.com/adsb/piaware/build or  Dump1090 see http://www.satsignal.eu/raspberry-pi/dump1090.html 
 I am using this one because I already installed it before https://forum.flightradar24.com/forum/radar-forums/flightradar24-feeding-data-to-flightradar24/9949-how-to-install-dump1090-mutability-on-rpi 
-You do need to set up the feeder to Flightaware or FR24 we only want Dump1090 for our own use.
-3) Setup the GPS and Buzzer ans per instructions above
+You don't need to set up the feeder to Flightaware or FR24 we only want Dump1090 for our own use.
+3) Setup the GPS and Buzzer as per instructions above
 4) Install the following libraries
   sudo apt-get update  
   sudo apt-get install python-requests  
@@ -35,4 +35,4 @@ You do need to set up the feeder to Flightaware or FR24 we only want Dump1090 fo
 6) Clone this repo into the home directory,  aerplane_radar.py
 7) edit setup options as required, eg. GPIO for buzzer etc.
 
-more to come... 
+documenting as I go... more to come... 

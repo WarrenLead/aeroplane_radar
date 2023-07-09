@@ -9,11 +9,11 @@ Currently I am developing using one Raspberry Pi which is running Dump1090 with 
 
 # Required components:
 
-1) Raspberry pi - 4B or Zero 2
-2) GPS module - Neo 6M (https://maker.pro/raspberry-pi/tutorial/how-to-use-a-gps-receiver-with-raspberry-pi-4)
-3) Buzzer - https://www.circuitbasics.com/how-to-use-buzzers-with-raspberry-pi/
+1) Raspberry pi - 4B or Zero 2 W
+2) GPS module - Neo 6M (https://maker.pro/raspberry-pi/tutorial/how-to-use-a-gps-receiver-with-raspberry-pi-4) Note: I had some difficulties getting gpsmon & cgps to work. I ended up reading somewhere about removing the section "console=serial0,115200" from the /root/cmdline.txt file as the GPS fights with the console over it. This worked for me anyway.  WARNING: Editing cmdline.txt is dangerous, if you make a typo or a mistake you could make your system not bootable like I did. Don't stuff it up, don't delete the console=tty1 bit or the root=PARTUUID=xxxxxxxxx-02 part. Make a backup of the file first before editing. (sudo cp /root/cmdline.txt /root/cmdline_backup.txt)
+3) Buzzer - https://www.circuitbasics.com/how-to-use-buzzers-with-raspberry-pi/ or your favourite buzzer
 4) SDR Dongle (e.g. radarbox, flightaware, rtl-sdr) I am using RadarBox Flightstick at the moment for testing
-5) micro usb to USB adapter or HUB (if using pi zero since it doesn't have full size usb ports) 
+5) micro usb to USB adapter or HUB (HUB only needed if you dont have enough USB ports)
 6) 5v voltage regulator for external battery power
 7) Antenna 
 8) Case
